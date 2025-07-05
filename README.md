@@ -72,6 +72,13 @@ Implementa un algoritmo para insertar nodos en un Árbol Binario de Búsqueda.
 ```
 
 ---
+### Explicacion: Ejercicio 1
+- **Clase:** `InsertBSTTest`
+- **Método:** `insert(Node root, int value)`
+- **Descripción:** Inserta valores en un BST respetando la propiedad:
+  - Valores menores van a la izquierda.
+  - Valores mayores van a la derecha.
+- **Impresión:** Se muestra el árbol por niveles usando `printPorNiveles()`.
 
 ### Ejercicio 02: Invertir un Árbol Binario
 
@@ -96,6 +103,12 @@ Dada la raíz de un árbol binario, el algoritmo devuelve su versión invertida 
 
 ---
 
+### Explicacion: Ejercicio 2
+- **Clase:** `InvertBinaryTree`
+- **Método:** `invertTree(Node root)`
+- **Descripción:** Invierte el árbol binario intercambiando los hijos izquierdo y derecho en cada nodo.
+- **Impresión:** Se muestra el árbol invertido por niveles.
+
 ### Ejercicio 03: Listar Niveles en Listas Enlazadas
 
 📂 Carpeta: `Ejercicio_03_listLeves`
@@ -118,6 +131,15 @@ Devuelve una lista enlazada con los nodos por nivel. Si hay N niveles, se obtien
 ```
 
 ---
+### Explicacion: Ejercicio 3
+**Clase:** `ListLevels`
+- **Método:** `listLevels(Node root)`
+- **Descripción:** Devuelve una lista de listas enlazadas, donde cada una representa los nodos en un nivel del árbol.
+- **Ejemplo de salida:** 
+Nivel 1: 4 ->
+Nivel 2: 2 -> 7 ->
+Nivel 3: 1 -> 3 -> 6 -> 9 ->
+
 
 ### Ejercicio 04: Calcular la Profundidad Máxima
 
@@ -136,6 +158,12 @@ Calcula la profundidad máxima de un árbol binario (la longitud del camino más
 **Output esperado:** `4`
 
 ---
+
+### Explicacion: Ejercicio 4
+**Clase:** `Depth`
+- **Método:** `maxDepth(Node root)`
+- **Descripción:** Calcula la máxima profundidad (altura) de un árbol binario.
+- **Ejemplo de salida:** `Profundidad máxima: 4`
 
 ## Indicaciones Generales
 

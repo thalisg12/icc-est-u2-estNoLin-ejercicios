@@ -28,9 +28,9 @@ jobs:
         mkdir -p bin
         # Ejecutar compilación y capturar salida
         if javac -cp "lib/*" -d bin $(find src -name "*.java"); then
-          echo "salida=0" >> $GITHUB_ENV
+          echo "salida=0" >> $GITHUB_OUTPUT
         else
-          echo "salida=1" >> $GITHUB_ENV
+          echo "salida=1" >> $GITHUB_OUTPUT
         fi
       shell: bash
     

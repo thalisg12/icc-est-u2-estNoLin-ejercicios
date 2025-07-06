@@ -181,6 +181,7 @@ Calcula la profundidad máxima de un árbol binario (la longitud del camino más
 * En el AVAC, sube la **URL del repositorio** con el código.
 
 ---
+### Captura de Ejecucion del Programa
 ![Salida:](image.png)
 
 ## No se calificará si:
